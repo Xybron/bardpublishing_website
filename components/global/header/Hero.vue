@@ -2,7 +2,7 @@
 import { Button } from '@/components/ui/button';
 </script>
 <template>
-    <main class="w-screen h-screen overflow-hidden relative flex items-center">
+    <main class="w-screen h-screen relative flex items-center">
         <div
             class="absolute inset-0 z-0 bg-cover bg-center bg-[url('/imgs/bg_hero.jpg')]">
             <div class="absolute inset-0 bg-black opacity-70"></div>
@@ -26,6 +26,9 @@ import { Button } from '@/components/ui/button';
             </div>
 
 
+        </div>
+        <div class="absolute bg-white h-[90vh] z-10 rounded-xl -bottom-10 right-25">
+            <img src="/imgs/book/digital_natives.webp" alt="Parenting Digital Natives" class=" h-full object-cover rounded-xl" />
         </div>
     </main>
 </template>

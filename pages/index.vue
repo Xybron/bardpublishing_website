@@ -5,4 +5,5 @@ import HomeHero from '@/components/global/header/Hero.vue';
 </script>
 <template>
     <HomeHero />
+    <WhoAreWe />
 </template>
