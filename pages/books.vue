@@ -7,6 +7,7 @@ import SubHeader from '@/components/global/header/SubHeader.vue';
 <template>
      <SubHeader :title="'Books'" :subtitle="'Parenting Digital Natives'" />
  <HeaderBooks/>
+ <PublishedBooks/>
 </template>
 
 
