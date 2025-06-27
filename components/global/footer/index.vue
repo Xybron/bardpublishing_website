@@ -40,30 +40,30 @@
               <h6 class="font-serif text-lg font-semibold text-white">Quick Links</h6>
               <ul class="mt-5 space-y-4">
                 <li>
-                  <NuxtLink to="/about" class="text-sm text-white text-opacity-50 hover:text-opacity-100">About Us
+                  <NuxtLink to="#" class="text-sm text-white text-opacity-50 hover:text-opacity-100">About Us
                   </NuxtLink>
                 </li>
                 <li>
-                  <NuxtLink to="/publishing-packages" class="text-sm text-white text-opacity-50 hover:text-opacity-100">
-                    Publishing Packages</NuxtLink>
+                  <NuxtLink to="/books" class="text-sm text-white text-opacity-50 hover:text-opacity-100">
+                    Books</NuxtLink>
                 </li>
-                <li>
-                  <NuxtLink to="/success-stories" class="text-sm text-white text-opacity-50 hover:text-opacity-100">
+                <!-- <li>
+                  <NuxtLink to="#" class="text-sm text-white text-opacity-50 hover:text-opacity-100">
                     Success Stories</NuxtLink>
                 </li>
                 <li>
                   <NuxtLink to="/store" class="text-sm text-white text-opacity-50 hover:text-opacity-100">Bookstore
                   </NuxtLink>
-                </li>
+                </li> -->
               </ul>
             </div>
 
             <div>
               <h6 class="font-serif text-lg font-semibold text-white">Site Links</h6>
               <ul class="mt-5 space-y-4 cursor-pointer">
-                <li>
+                <!-- <li>
                   <NuxtLink to="/blog" class="text-sm text-white text-opacity-50 hover:text-opacity-100">Blog</NuxtLink>
-                </li>
+                </li> -->
                 <li>
                   <NuxtLink to="/faqs" class="text-sm text-white text-opacity-50 hover:text-opacity-100">FAQs</NuxtLink>
                 </li>

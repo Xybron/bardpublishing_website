@@ -10,7 +10,7 @@
           <NuxtLink to="/" title="" class="flex">
             <img class="w-auto h-15"
               src="/imgs/logo_white.png"
-              alt="Agrokings Logo" />
+              alt="Bard Publishing Logo" />
           </NuxtLink>
         </div>
 
@@ -35,7 +35,7 @@
         <!-- Desktop Nav -->
         <nav class="hidden space-x-10 md:flex md:items-center md:justify-center lg:space-x-12">
           <NuxtLink to="/" class="text-base font-normal text-gray-100 transition hover:text-white">Home</NuxtLink>
-          <NuxtLink to="#" class="text-base font-normal text-gray-100 transition hover:text-white">Books</NuxtLink>
+          <NuxtLink to="/books" class="text-base font-normal text-gray-100 transition hover:text-white">Books</NuxtLink>
           <NuxtLink to="#" class="text-base font-normal text-gray-100 transition hover:text-white">Contact Us</NuxtLink>
         </nav>
       </div>
@@ -50,7 +50,7 @@
           <div class="py-4">
             <nav class="space-y-2">
               <NuxtLink
-                to="#"
+                to="/"
                 class="flex items-center px-4 py-3 text-base font-medium text-gray-900 rounded-lg hover:bg-gray-50 transition-colors"
                 @click="expanded = false"
               >
@@ -61,7 +61,7 @@
               </NuxtLink>
 
               <NuxtLink
-                to="#"
+                to="/books"
                 class="flex items-center px-4 py-3 text-base font-medium text-gray-900 rounded-lg hover:bg-gray-50 transition-colors"
                 @click="expanded = false"
               >
