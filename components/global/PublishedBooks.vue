@@ -1,18 +1,7 @@
 <script setup lang="ts">
-const books = [
-    {
-        title: 'Parenting Digital Natives',
-        image: '/imgs/book/digital_natives.webp'
-    },
-    {
-        title: 'The Allure of The Oil Palm Tree',
-        image: '/imgs/book/palm_tree.webp'
-    },
-    {
-        title: 'Mental Overload and Creating Balance',
-        image: '/imgs/book/mental_overload.webp'
-    },
-]
+import { useBookStore } from '~/stores/book.store';
+const bookStore = useBookStore();
+const books = bookStore.books;
 </script>
 
 <template>
@@ -35,10 +24,10 @@ const books = [
                 </div> -->
             </div>
             <h3 class="mt-4 text-base font-bold text-gray-900">
-                <a href="#" title="">
+                <NuxtLink :to="`/books/${book.id}`" title="">
                     {{ book.title }}
                     <span class="absolute inset-0" aria-hidden="true"></span>
-                </a>
+                </NuxtLink>
             </h3>
             <!-- <p class="mt-1.5 text-base font-medium text-gray-500">Audio & Sound</p> -->
         </div>

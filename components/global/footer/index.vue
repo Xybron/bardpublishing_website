@@ -3,7 +3,7 @@
     <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
       <div class="max-w-2xl mx-auto text-center">
         <p class="text-base font-semibold text-green-500">Subscribe for free</p>
-        <h2 class="mt-6 text-3xl font-semibold tracking-tight text-white sm:text-4xl lg:text-5xl lg:mt-8">Subscribe to
+        <h2 class="mt-6 text-3xl font-title font-semibold text-white sm:text-4xl lg:text-5xl lg:mt-8">Subscribe to
           our newsletter & get the latest updates</h2>
       </div>
 

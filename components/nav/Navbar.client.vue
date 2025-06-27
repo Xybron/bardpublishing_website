@@ -1,7 +1,7 @@
 <template>
   <header :class="[
-    'py-4 sm:py-4  z-50 transition-all duration-300 fixed top-0 left-0 right-0  mx-auto',
-    transparentMode && !scrolled ? 'bg-transparent w-full' : 'bg-black opacity-90 rounded-full mt-3 w-[95vw]'
+    'py-2 sm:py-2  z-50 transition-all duration-300 absolute top-0 left-0 right-0  mx-auto',
+    true ? 'bg-transparent w-full' : 'bg-black opacity-90 w-full'
   ]">
     <div class="px-4 md:px-15">
       <div class="flex items-center justify-between">
@@ -94,7 +94,6 @@ import { useWindowScroll } from '@vueuse/core'
 import {
   Dialog,
   DialogContent,
-  DialogFooter,
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog'
@@ -102,7 +101,7 @@ import {
 const props = defineProps({
   transparent: {
     type: Boolean,
-    default: true
+    default: false
   }
 })
 
