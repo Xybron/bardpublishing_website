@@ -8,4 +8,5 @@ import HomeHero from '@/components/global/header/Hero.vue';
     <WhoAreWe />
     <NextRead />
     <FullAd/>
+    <Testimonials />
 </template>

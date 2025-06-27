@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 </script>
 <template>
     <main class="w-screen h-screen relative flex items-center">
-        <div class="absolute inset-0 z-0 bg-cover bg-center bg-[url('/imgs/bg_hero_1.jpg')]">
+        <div class="absolute inset-0 z-0 bg-cover bg-center bg-[url('/imgs/bg_hero_1.jpg')] bg-fixed">
             <div class="absolute inset-0 bg-black opacity-50"></div>
             <div class="absolute inset-0 bg-green-900 opacity-40"></div>
         </div>
