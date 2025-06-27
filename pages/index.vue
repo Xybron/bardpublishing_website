@@ -6,4 +6,6 @@ import HomeHero from '@/components/global/header/Hero.vue';
 <template>
     <HomeHero />
     <WhoAreWe />
+    <NextRead />
+    <FullAd/>
 </template>
