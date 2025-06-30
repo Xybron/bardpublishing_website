@@ -19,7 +19,7 @@ const books = [
         <div class="max-w-7xl mx-auto grid grid-cols-5 gap-5 ">
 
             <!-- Text Content -->
-            <div class="col-span-2">
+            <div class="col-span-5 md:col-span-2">
                 <p class="text-green-600 text-lg font-medium mb-2">
                     Find your next great read.
                 </p>
@@ -31,14 +31,32 @@ const books = [
                     From powerful fiction to insightful non-fiction, our titles are crafted to inform,
                     entertain, and inspire readers across genres.
                 </p>
-                <button class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded font-medium transition">
+                <NuxtLink to="/books"
+                    class="hidden md:block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded font-medium transition">
                     Browse All Books
-                </button>
+                </NuxtLink>
             </div>
 
             <!-- Book Covers -->
-            <img v-for="book in books" :src="book.image" :alt="book.title" class="w-36 md:w-65" />
+            <img v-for="book in books" :src="book.image" :alt="book.title" class="hidden md:block w-36 md:w-65" />
 
         </div>
+        <div class="md:hidden">
+
+            <div class="flex flex-wrap gap-2 justify-around">
+                <!-- Book Covers -->
+                <img v-for="book in books" :src="book.image" :alt="book.title"
+                    class="w-36 md:w-65 h-auto object-contain" />
+            </div>
+
+            <NuxtLink to="/books"
+                class="mt-10 w-full block bg-green-600 hover:bg-green-700 text-white px-6 py-3 text-center rounded font-medium transition">
+                Browse All Books
+            </NuxtLink>
+
+        </div>
+
+
+
     </section>
 </template>
