@@ -31,10 +31,10 @@ const books = [
                     From powerful fiction to insightful non-fiction, our titles are crafted to inform,
                     entertain, and inspire readers across genres.
                 </p>
-                <NuxtLink to="/books"
-                    class="hidden md:block bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded font-medium transition">
+                <Button @click="$router.push('/books')"
+                    class="hidden md:block bg-green-600 hover:bg-green-700 text-white  rounded font-medium transition">
                     Browse All Books
-                </NuxtLink>
+            </Button>
             </div>
 
             <!-- Book Covers -->
