@@ -20,7 +20,7 @@ import { Button } from '@/components/ui/button';
                     Explore captivating stories and insightful knowledge from our curated collection of books.
                 </p>
                 <div>
-                    <Button variant="outline"
+                    <Button variant="outline" @click="$router.push('/books')"
                         class="bg-transparent hover:bg-green-700 text-white px-6 py-3 rounded font-medium transition flex items-center gap-2">
                         Discover Our Books
                     </Button>
