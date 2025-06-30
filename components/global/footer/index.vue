@@ -67,10 +67,10 @@
                 <li>
                   <NuxtLink to="/faqs" class="text-sm text-white text-opacity-50 hover:text-opacity-100">FAQs</NuxtLink>
                 </li>
-                <li>
+                <!-- <li>
                   <NuxtLink to="/resources" class="text-sm text-white text-opacity-50 hover:text-opacity-100">Author
                     Resources</NuxtLink>
-                </li>
+                </li> -->
                 <li>
                   <NuxtLink to="/terms" class="text-sm text-white text-opacity-50 hover:text-opacity-100">Terms &
                     Conditions</NuxtLink>

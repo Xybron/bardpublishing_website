@@ -10,8 +10,8 @@ defineProps<{
             <div class="absolute inset-0 bg-black opacity-70"></div>
         </div>
         <div class="relative z-10 text-white text-center">
-        <div class = "max-w-3xl">
-          <h1 class="font-title text-5xl">{{ title }}</h1>
+        <div class = "max-w-xs md:max-w-3xl">
+          <h1 class="font-title text-3xl md:text-5xl">{{ title }}</h1>
         <p>{{ subtitle }}</p>
         </div>
         

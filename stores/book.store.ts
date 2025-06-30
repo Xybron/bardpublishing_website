@@ -13,6 +13,24 @@ export const useBookStore = defineStore('bookStore', {
           'Building Strong Family Bonds: Discover ways to reconnect as a family, even in the midst of tech-driven lifestyles.',
           'Empowering Parental Guidance: Gain confidence in guiding your children through the challenges and opportunities of the digital era.',
         ],
+        resources:[{
+           name : 'Digital Detox Challenge',
+          type : 'PDF',
+          previewImage : '/imgs/detox.jpg',
+          link : '/resources/DIGITAL-DETOX-Challenge.pdf',
+          description : "A 10-day challenge to help you and your family disconnect from technology and reconnect with each other."
+        },
+        {
+           name : 'Social Media Contract',
+          type : 'PDF',
+          previewImage : '/imgs/contract.jpg',
+          link : '/resources/Social-media-contract.pdf',
+          description : "A template for creating a social media contract with your children."
+        },
+
+         
+
+        ],
         cta: 'Take the first step towards empowering your family in the digital age. Order Parenting Digital Natives today and start building a healthier, more connected home environment.'
       },
       {
