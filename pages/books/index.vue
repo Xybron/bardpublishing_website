@@ -5,11 +5,7 @@ import SubHeader from '@/components/global/header/SubHeader.vue';
 </script>
 
 <template>
-     <SubHeader :title="'Books'" :subtitle="'Parenting Digital Natives'" />
- <HeaderBooks/>
- <PublishedBooks/>
+    <SubHeader :title="'Books'" :subtitle="'Parenting Digital Natives'" :background-image="'/imgs/bg_library.jpg'"/>
+    <HeaderBooks />
+    <PublishedBooks />
 </template>
-
-
-
-

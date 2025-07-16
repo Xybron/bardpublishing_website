@@ -25,7 +25,7 @@ import { BadgeCheckIcon } from 'lucide-vue-next';
                     children in a hyper-connected world.
                 </p>
                 <div>
-                    <Button
+                    <Button @click="$router.push('/books')"
                         class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded font-medium transition flex items-center gap-2">
 
                         Explore All books
