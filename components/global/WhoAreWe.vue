@@ -31,13 +31,13 @@
                 When Sir Francis Bacon wrote in <em>Meditationes Sacrae</em> (1597) that <span
                     class="font-semibold">“knowledge itself is power,”</span> he captured a truth we hold dear: that
                 sharing ideas is the foundation of growth, influence, and progress. Every achievement begins with a good
-                idea — and a good book.
+                idea and a good book too.
             </p>
 
-            <blockquote class="border-l-4 border-gray-300 pl-4 italic text-gray-600">
+            <!-- <blockquote class="border-l-4 border-gray-300 pl-4 italic text-gray-600">
                 Let us go forward in this battle fortified by conviction that those who labour in the service of a great
                 and good cause will never fail.
-            </blockquote>
+            </blockquote> -->
         </div>
     </section>
 </template>
